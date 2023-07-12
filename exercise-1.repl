@@ -18,7 +18,7 @@
     (math-calculator.sum [1 2 3]))
 
 (expect "Should multiply multiple numbers"
-    2
+    6
     (math-calculator.mult [1 2 3]))
 
 (commit-tx)
